@@ -1,8 +1,8 @@
-# Easy-SSR-Bash-Python-The-Final
-Ò»¸öShadowsocksR¶àÓÃ»§¹ÜÀíShell½Å±¾£¨»ùÓÚ¹Ù·½mujson°æ±¾£©£¬¼¯³ÉSSR¶àÓÃ»§¹ÜÀí£¬Á÷Á¿ÏŞÖÆ£¬¼ÓÃÜ¸ü¸ÄµÈ»ù±¾²Ù×÷¡£ÊÇÒ»¸ö»ùÓÚShadowsocksR¹Ù·½µÄmujsonµÄ¸¨Öú½Å±¾¡£·½±ãÓÃ»§²Ù×÷¡£
+# Easy-SSR
+ä¸€ä¸ªShadowsocksRå¤šç”¨æˆ·ç®¡ç†Shellè„šæœ¬ï¼ˆåŸºäºå®˜æ–¹mujsonç‰ˆæœ¬ï¼‰ï¼Œé›†æˆSSRå¤šç”¨æˆ·ç®¡ç†ï¼Œæµé‡é™åˆ¶ï¼ŒåŠ å¯†æ›´æ”¹ç­‰åŸºæœ¬æ“ä½œã€‚æ˜¯ä¸€ä¸ªåŸºäºShadowsocksRå®˜æ–¹çš„mujsonçš„è¾…åŠ©è„šæœ¬ã€‚æ–¹ä¾¿ç”¨æˆ·æ“ä½œã€‚
 
 
-## ÏµÍ³Ö§³Ö ##
+## ç³»ç»Ÿæ”¯æŒ ##
 
  - Ubuntu 14
  - Ubuntu 16
@@ -11,36 +11,36 @@
  - CentOS 6
  - CentOS 7
 
-## ¹¦ÄÜ ##
+## åŠŸèƒ½ ##
 
- - Ò»¼ü¿ªÆô¡¢¹Ø±ÕSSR·şÎñ
- - Ìí¼Ó¡¢É¾³ı¡¢ĞŞ¸ÄÓÃ»§¶Ë¿ÚºÍÃÜÂë
- - ×ÔÓÉÏŞÖÆÓÃ»§¶Ë¿ÚÁ÷Á¿Ê¹ÓÃ
- - ×Ô¶¯ĞŞ¸Ä·À»ğÇ½¹æÔò
- - ×ÔÖúĞŞ¸ÄSSR¼ÓÃÜ·½Ê½¡¢Ğ­Òé¡¢»ìÏıµÈ²ÎÊı
- - ×Ô¶¯Í³¼Æ£¬·½±ã²éÑ¯Ã¿¸öÓÃ»§¶Ë¿ÚµÄÁ÷Á¿Ê¹ÓÃÇé¿ö
- - ×Ô¶¯°²×°Libsodium¿âÒÔÖ§³ÖChacha20µÈ¼ÓÃÜ·½Ê½
+ - ä¸€é”®å¼€å¯ã€å…³é—­SSRæœåŠ¡
+ - æ·»åŠ ã€åˆ é™¤ã€ä¿®æ”¹ç”¨æˆ·ç«¯å£å’Œå¯†ç 
+ - è‡ªç”±é™åˆ¶ç”¨æˆ·ç«¯å£æµé‡ä½¿ç”¨
+ - è‡ªåŠ¨ä¿®æ”¹é˜²ç«å¢™è§„åˆ™
+ - è‡ªåŠ©ä¿®æ”¹SSRåŠ å¯†æ–¹å¼ã€åè®®ã€æ··æ·†ç­‰å‚æ•°
+ - è‡ªåŠ¨ç»Ÿè®¡ï¼Œæ–¹ä¾¿æŸ¥è¯¢æ¯ä¸ªç”¨æˆ·ç«¯å£çš„æµé‡ä½¿ç”¨æƒ…å†µ
+ - è‡ªåŠ¨å®‰è£…Libsodiumåº“ä»¥æ”¯æŒChacha20ç­‰åŠ å¯†æ–¹å¼
 
-## È±µã ##
+## ç¼ºç‚¹ ##
 
- - ÎŞ·¨É¾³ı×îºóÒ»ÃûÓÃ»§£¨¹Ù·½ÏŞÖÆ£©
+ - æ— æ³•åˆ é™¤æœ€åä¸€åç”¨æˆ·ï¼ˆå®˜æ–¹é™åˆ¶ï¼‰
 
-## °²×° ##
-###CentOSÏµÁĞ
+## å®‰è£… ##
+###CentOSç³»åˆ—
 
-    yum update -y && yum install unzip zip -y && yum install wget -y && wget -N --no-check-certificate https://raw.githubusercontent.com/Moexin/Easy-SSR-Bash-Python-The-Final/master/ssr.zip && unzip ssr.zip && cd SSR* && bash install.sh
+    yum update -y && yum install unzip zip -y && yum install wget -y && wget -N --no-check-certificate https://github.com/cyy149/Easy-SSR/master/ssr.zip && unzip ssr.zip && cd SSR* && bash install.sh
 
-###Debian/UbuntuÏµÁĞ
+###Debian/Ubuntuç³»åˆ—
 
-    apt-get update -y && apt-get install unzip zip -y && apt-get install wget -y && wget -N --no-check-certificate https://raw.githubusercontent.com/Moexin/Easy-SSR-Bash-Python-The-Final/master/ssr.zip && unzip ssr.zip && cd SSR* && bash install.sh
+    apt-get update -y && apt-get install unzip zip -y && apt-get install wget -y && wget -N --no-check-certificate https://github.com/cyy149/Easy-SSR/master/ssr.zip && unzip ssr.zip && cd SSR* && bash install.sh
 
-## Ğ¶ÔØ ##
+## å¸è½½ ##
 
-    cd /root/SSR-Bash-Python-The-Final && bash uninstall.sh
+    cd /root/SSR-Bash && bash uninstall.sh
 
-## ×Ô¼ì ##
+## è‡ªæ£€ ##
 
-    cd /root/SSR-Bash-Python-The-Final && bash self-check.sh
+    cd /root/SSR-Bash && bash self-check.sh
 
 
 
